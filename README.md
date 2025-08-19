@@ -28,13 +28,13 @@ This project is a hands-on cybersecurity home lab built using 7 virtual machines
 
 
 **Components:**
--**Domain Controller (Windows Server 2022)**-> Active Directory, DNS, DHCP
--**Windows Client (Windows 11)**-> Client with wazuh agent
--**Linux Client (Ubuntu 22.04)**-> Client with wazuh agent
--**Corp-Server (Ubuntu 22.04)**-> E-Mail Server using MailHog
--**Security Onion Workstation (Oracle Linux)**->Part of domain, future blue team work
--**Security Box(Ubunutu 22.04)**-> Hosted Wazuh
--**Attacker Machine (Kali Linux)**-> Attacked corporate network
+- **Domain Controller (Windows Server 2022)**-> Active Directory, DNS, DHCP
+- **Windows Client (Windows 11)**-> Client with wazuh agent
+- **Linux Client (Ubuntu 22.04)**-> Client with wazuh agent
+- **Corp-Server (Ubuntu 22.04)**-> E-Mail Server using MailHog
+- **Security Onion Workstation (Oracle Linux)**->Part of domain, future blue team work
+- **Security Box(Ubunutu 22.04)**-> Hosted Wazuh
+- **Attacker Machine (Kali Linux)**-> Attacked corporate network
 
 ## Setup Steps
 1. Installed VirtualBox and configured all machines above.
