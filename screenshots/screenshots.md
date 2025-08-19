@@ -1,2 +1,2 @@
 ## Active Directory Users
-[Active Directory Users](screenshots/alert.png)
+[Active Directory Users](alert.png)
