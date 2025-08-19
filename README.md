@@ -57,21 +57,21 @@ This project is a hands-on cybersecurity home lab built using 7 virtual machines
 18. Look at alerts and logs genarated on wazuh.
 
 ## Attack Chain Summary (MITRE ATT&CK)
--**Reconaissance**: Nmap Scans to identify open services (22-SSH, 3389-RDP, 5985-WinRM).
--**Initial Access**: SSH Brute force attack on corp server using Hydra
--**Execution**: Exploting weak credentials on Mailhog, and phishing the user on linux client machine.
--**Persistence**: Created new admin user + scheduled task backdoor.
--**Privilege Escalation**: Captured domain admin credentials using evil-winrm.
--**Credential Access**: Harvested credentials from phishing + spraying.
--**Lateral Movement**: Exploited WinRM to move from linux client to domain controller.
--**Exfiltration**- Copied 'secrets.txt' file via SCP to attacker machine.
--**Command & Control**- Reverse shell callback using listener on port 4444.
+- **Reconaissance**: Nmap Scans to identify open services (22-SSH, 3389-RDP, 5985-WinRM).
+- **Initial Access**: SSH Brute force attack on corp server using Hydra
+- **Execution**: Exploting weak credentials on Mailhog, and phishing the user on linux client machine.
+- **Persistence**: Created new admin user + scheduled task backdoor.
+- **Privilege Escalation**: Captured domain admin credentials using evil-winrm.
+- **Credential Access**: Harvested credentials from phishing + spraying.
+- **Lateral Movement**: Exploited WinRM to move from linux client to domain controller.
+- **Exfiltration**- Copied 'secrets.txt' file via SCP to attacker machine.
+- **Command & Control**- Reverse shell callback using listener on port 4444.
 
 ## Lessons Learned
--Setting up Active Directory manually gave me real experience with domain users, groups, DNS and DHCP.
--Saw firsthand how weak passwords and open ports create quick entry points.
--Practiced offensive skills like brute force, phishing, lateral movement, and persistence.
--Learned how a SIEM like Wazuh can detect brute force, failed logins, and suspicious processes.
--Gained visibility into how attackers move through a network once they compromise one machine.
--Built confidence in simulating both red team attacks and blue team detection/response.
+- Setting up Active Directory manually gave me real experience with domain users, groups, DNS and DHCP.
+- Saw firsthand how weak passwords and open ports create quick entry points.
+- Practiced offensive skills like brute force, phishing, lateral movement, and persistence.
+- Learned how a SIEM like Wazuh can detect brute force, failed logins, and suspicious processes.
+- Gained visibility into how attackers move through a network once they compromise one machine.
+- Built confidence in simulating both red team attacks and blue team detection/response.
 
