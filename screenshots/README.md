@@ -1,0 +1,2 @@
+[Wazuh alert](alert.png)
+
