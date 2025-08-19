@@ -2,12 +2,12 @@
 This project is a hands-on cybersecurity home lab built using 7 virtual machines, designed to simulate a real-world enterprise environment. The lab includes an **Active Directory Domain**, an **E-Mail and Corporate Server**, a **Security Server**, an **attacker machine** and monitoring/detection tools using **Wazuh** to practice blue and red team skills.
 
 ## Project Overview
--**Goal:** Build and secure a simulated company network, configuring DNS, DHCP, Active Directory and a SIEM (Wazuh), then test defences with an attack.
--**Environment:** Virtual machines running on VirtualBox
+- **Goal:** Build and secure a simulated company network, configuring DNS, DHCP, Active Directory and a SIEM (Wazuh), then test defences with an attack.
+- **Environment:** Virtual machines running on VirtualBox
 **Focus Areas:**
--Windows Active Directory setup and user management
--Configuring Wazuh and setting up detection alerts
--Attacking with Kali Linux (privilege escalation, lateral movement, data exfiltration, persistence)
+- Windows Active Directory setup and user management
+- Configuring Wazuh and setting up detection alerts
+- Attacking with Kali Linux (privilege escalation, lateral movement, data exfiltration, persistence)
 
 ## Lab Architecture
 **Tools/Technology Used:**
